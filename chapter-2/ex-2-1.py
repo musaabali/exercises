@@ -5,21 +5,16 @@
 # and performs no computations.
 # It will display the name and contact information for a teacher.
 
-# display the full name
-print("Musaab Ali")
+name ="Musaab Ali"
+address = "555 Milbury Lane"
+city = "Coralville, IA, 52241"
+phone = "319-123-4567"
+area ="CIS-121"
+def print_address(full_name,address,city_state_zip,phone,area):
+	print(full_name)
+	print(address)
+	print(city_state_zip)
+	print(phone)
+	print(area)
 
-# display the address
-print("The white house down the street")
-
-# display the city, state and zip
-print("Coralville, IA, 52241")
-
-# display the phone number
-print("319-123-4567")
-
-# display the course area
-print("CIS-121")
-
-
-
-
+print_address(name, address, city, phone, area)
