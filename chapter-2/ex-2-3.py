@@ -10,18 +10,19 @@
 
 
 # Constant for the number of square feet in an acre.
-
+SQUARE_FEET_IN_ACRE = 43560
 
 # Get the square feet in the tract from the user.
 # you will need to convert this input to a float
-
+int_square_feet = input("Enter the area in square feet: ")
+f_square_feet = float(int_square_feet)
 
 # Calculate the number of acres.
-
+acres = f_square_feet / SQUARE_FEET_IN_ACRE
 
 # Print the number of acres.
 # remember to format the acres to two decimal places
-
+print (str.format("That is {:.2f} Acres", acres))
 
 
 
