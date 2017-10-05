@@ -8,7 +8,9 @@
 
 
 # Global constants for minimum, maximum and mass multiplier values
-
+MINIMUM = 100
+MAXIMUM = 500
+MASS_MULTIPLIER = 100
 
 # Variables for weight and mass initialized as floats   
 
